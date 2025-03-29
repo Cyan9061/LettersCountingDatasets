@@ -20,7 +20,7 @@ This tool generates datasets where each sample contains controlled-length texts 
 - **Controlled Text Length**: Avoids excessive text length inflation while preserving meaningful complexity.
 
 - **复合单元生成**：通过组合不同长度的英语单词生成复合单元。(例如elian_moskito_pbase_tlist_alexanderplatz_cityside)
-- **频率多样性**：确保样本中目标子字符串的频率具有多样性。
+- **频率多样性**：确保样本中目标子字符串的频率具有多样性，即不重复。
 - **文本长度控制**：在保持文本复杂性的同时，避免文本长度过度膨胀。
 
 ---
