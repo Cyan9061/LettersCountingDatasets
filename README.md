@@ -59,13 +59,13 @@ This tool generates datasets where each sample contains controlled-length texts 
 ### Time Complexity / 时间复杂度
 
 - **Word Loading**: $O(\min(M, N))$  
-  *$M$ is the total number of lines in `count_1w.txt` and $N$ is `scan_max`.*
+  *M is the total number of lines in `count_1w.txt` and N is `scan_max`.*
 
 - **Preprocessing Counts**: $O(N \cdot L)$  
-  *$L$ represents the average word length.*
+  *L represents the average word length.*
 
 - **Main Loop**: $O(T \cdot n)$  
-  *$T$ is the total number of iterations required to achieve `target_distinct` unique frequencies; $n$ is the number of words chosen per iteration (ranging between `min_words` and `max_words`).*
+  *T is the total number of iterations required to achieve `target_distinct` unique frequencies; n is the number of words chosen per iteration (ranging between `min_words` and `max_words`).*
 
 总体时间复杂度为:  
 $O(\min(M, N) + N \cdot L + T \cdot n)$
@@ -74,7 +74,7 @@ $O(\min(M, N) + N \cdot L + T \cdot n)$
 
 - **Word Storage**: $O(W)$  
 - **Result Storage**: $O(D)$  
-  *$W$ is the space required for storing words, and $D$ is the number of distinct frequency counts.*
+  *W is the space required for storing words, and D is the number of distinct frequency counts.*
 
 ---
 
@@ -99,7 +99,9 @@ Below is an outline of the project directory structure:
 └── README.md                  # This documentation file.
 ```
 
-*Note / 注意*: Replace placeholders (e.g., `[TARGET_CHAR]`, `[DISTINCT]`) with actual configurations during testing.
+*Note*: Replace placeholders (e.g., `[TARGET_CHAR]`, `[DISTINCT]`) with actual configurations during testing.
+
+注意：你需要用实际参数代替`[TARGET_CHAR]`, `[DISTINCT]`等参数。
 
 ---
 
@@ -119,8 +121,7 @@ pip install pandas openpyxl
 
 1. **Clone the Repository / 克隆仓库**  
    ```bash
-   git clone https://github.com/<username>/<repository>.git
-   cd <repository>
+   git clone https://github.com/Cyan9061/LettersCountingDatasets.git
    ```
 
 2. **Generate Datasets / 生成数据集**  
