@@ -5,7 +5,7 @@
 
 Several recent papers (e.g., *Why Do Large Language Models (LLMs) Struggle to Count Letters?*, *The Case For Language Model Accelerated LIKE Predicate*) have highlighted that large language models face challenges when counting letter frequencies. For instance, experiments (late 2024) that involved counting the number of 'r's in "strawberry" caused significant issues for many LLMs. This motivated us to develop a dataset generator specifically designed for training and testing such capabilities.
 
-最近的一些论文（例如 *Why Do Large Language Models (LLMs) Struggle to Count Letters?* 以及 *The Case For Language Model Accelerated LIKE Predicate*）指出，大型语言模型在字母频率计数任务上存在困难。例如，2024 年底的一些民间实验中，统计 “strawberry” 中字母 ‘r’ 的数量就给许多模型带来了显著问题。这促使我们开发了一个专门用于训练和测试该能力的数据集生成器。
+最近的一些论文（例如 *Why Do Large Language Models (LLMs) Struggle to Count Letters?* 以及 *The Case For Language Model Accelerated LIKE Predicate*等）指出，大型语言模型在字母频率计数任务上存在困难。例如，2024 年底的一些民间实验中，统计 “strawberry” 中字母 ‘r’ 的数量就给许多模型带来了显著问题。这促使我们开发了一个专门用于训练和测试该能力的数据集生成器。
 
 This tool generates datasets where each sample contains controlled-length texts with unique frequencies of a specified target substring.
 
