@@ -1,4 +1,4 @@
-# LLMCountBench(Language Model Counting Benchmark Generator）)
+# LLMCountBench(Language Model Counting Benchmark Generator)
 *面向大模型测试的字母/单词计数数据集生成器*
 
 ## Motivation / 动机
