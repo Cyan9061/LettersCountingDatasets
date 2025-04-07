@@ -42,9 +42,9 @@ This tool generates datasets where each sample contains controlled-length texts 
 
 3. **Distinct Count Collection / 收集不同目标对象数目的复合单元**  
    - Continuously generates new compound units until achieving `target_distinct` unique target substring frequencies.  
-   - Dynamically adjusts parameters if new unique frequencies are hard to obtain.
+   - Dynamically adjusts parameters if new unique frequencies are hard to obtain.e.g.,increasing max_words.
 
-   持续生成新的复合单元，直到获得 `target_distinct` 个不同的目标子字符串频率；若新频率难以获取，则动态调整相关参数。
+   持续生成新的复合单元，直到获得 `target_distinct` 个不同的目标子字符串频率；若新频率难以获取，则动态调整相关参数，例如增大max_words。
 
 4. **Performance Monitoring / 性能监控**  
    - Logs progress every 1000 iterations.  
